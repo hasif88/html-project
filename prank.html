@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- mobile css  -->
+<link rel="stylesheet" href="/prank.css">
+
+<!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- post css link  -->
+    <link rel="stylesheet" href="/css/card.css">
+    
+</head>
+<body>
+    <header>  
+        <div class="row">
+            
+            <span style="font-size:40px;cursor:pointer;position: relative;line-height: 80px; left:10px;" onclick="openNav()">&#9776; </span>
+
+
+        
+
+
+            <div id="mySidenav" class="sidenav">
+
+
+                <div class="prank-profile">
+                    <img src="/image/vector-cartoon-illustration-boy-is-confused_194552-1705.webp" alt="" srcset="">
+                    <p>Rainbow Friends Prank Call <span style="font-size: 12px;color:rgb(3, 86, 153)">Make prank calls and enjoy</span>  </p>
+                 </div>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/prank.html"><i class="fa fa-home" aria-hidden="true" style="color: #fff;"> </i>
+                    Home</a>
+                <a href="#"><i class="fa fa-cloud-download" aria-hidden="true"></i>
+                    check Update</a>
+                <a href="#"><i class="fa fa-file-code-o" aria-hidden="true"> </i>
+                    Developer</a>
+                <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                    Privacy Policy</a>
+                    <h3 style="color: rgb(21, 115, 131); font-size:15px;padding-top:20px;">Legal</h3>
+
+                    <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i>
+                    Share App</a>
+                <a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>
+                    Exit</a>
+              </div>
+
+
+
+          <nav>
+        <div class="logo">
+<h1>Prank video <span style="color: rgb(0, 0, 0);">call</span></h1>
+        </div>
+     
+    </nav>
+</div>
+</header>
+
+
+
+
+
+
+
+
+<!-- are// -->
+
+<div class="posts">
+    
+
+</div>
+
+<!-- web video call  -->
+<div class="web-video">
+    <video src="/image/_Dekhte_Dekhte_Song__Batti_Gul_Meter_Chalu__Shahid_K_Shraddha_K__Nusrat_Saab_Rochak_Manoj.mp4"></video>
+<div class="call-button">
+
+<button onclick="back()"><i class="fa fa-phone" aria-hidden="true"></i>
+</button>
+</div>
+</div>
+<!-- webcam   start  -->
+<h1>Open WebCam Using JavaScript</h1>
+<br/>
+<button id="startBtn" onclick="openCam()">Open Webcam</button>
+<br/><br/>
+<video id="videoCam"></video>
+
+<!-- menu item -->
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+    <!-- post script link  -->
+    <script src="/all-js/card.js"></script>
+    <!-- webcam script link  -->
+    <script src="/webcamjs/webcam.js"></script>
+</body>
+</html>
+
+

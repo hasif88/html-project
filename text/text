@@ -1,0 +1,90 @@
+<div class="user">
+
+   <a href=""> <div class="user-name">
+    <img src="/image/cristiano-ronaldo-toned-torso-sauna-selfie-t.avif" alt="" srcset="">
+<h2>hasif ahmed</h2>
+</div>
+</a>
+
+<a href=""> <div class="user-name">
+    <img src="/image/cartoon-character-student-late-school-free-vector_310181-78.webp" alt="" srcset="">
+<h2>hasif ahmed</h2>
+</div>
+</a>
+
+
+<a href=""> <div class="user-name">
+    <img src="/image/cartoon-character-student-late-school-free-vector_310181-78.webp" alt="" srcset="">
+<h2>hasif ahmed</h2>
+</div>
+</a>
+
+<a href=""> <div class="user-name">
+    <img src="/image/cartoon-character-student-late-school-free-vector_310181-78.webp" alt="" srcset="">
+<h2>hasif ahmed</h2>
+</div>
+</a>
+
+
+<a href=""> <div class="user-name">
+    <img src="/image/cartoon-character-student-late-school-free-vector_310181-78.webp" alt="" srcset="">
+<h2>hasif ahmed</h2>
+</div>
+</a>
+
+<a href=""> <div class="user-name">
+    <img src="/image/cartoon-character-student-late-school-free-vector_310181-78.webp" alt="" srcset="">
+<h2>hasif ahmed</h2>
+</div>
+</a>
+
+<a href=""> <div class="user-name">
+    <img src="/image/cartoon-character-student-late-school-free-vector_310181-78.webp" alt="" srcset="">
+<h2>hasif ahmed</h2>
+</div>
+</a>
+
+<a href=""> <div class="user-name">
+    <img src="/image/cartoon-character-student-late-school-free-vector_310181-78.webp" alt="" srcset="">
+<h2>hasif ahmed</h2>
+</div>
+</a>
+
+<a href=""> <div class="user-name">
+    <img src="/image/cartoon-character-student-late-school-free-vector_310181-78.webp" alt="" srcset="">
+<h2>hasif ahmed</h2>
+</div>
+</a>
+
+
+</div>
+
+/* user start / */
+  .user{
+    width: 100%;
+  }
+  .user-name {
+    width: 60px;
+    height: 80px;
+    float: left;
+    padding: 5px;
+    background-color: rgb(175, 175, 175);
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 0;
+  }
+  .user-name:hover{
+    box-shadow: 0 0 4px 0;
+
+  }
+  .user-name img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border:  1px solid black;
+  }
+  .user-name h2{
+    font-size: 8px;
+    color: #000000;
+  }
